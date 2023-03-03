@@ -1,4 +1,1 @@
-# Autor: Francisco Orozco
-
-$ruta = "C:\Program Files (x86)\Dropbox\Client\DropboxUninstaller.exe"
-Start-Process $ruta /S -Wait
+Start-Process "C:\Program Files (x86)\Dropbox\Client\DropboxUninstaller.exe" /S -Wait
